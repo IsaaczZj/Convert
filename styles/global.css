@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --blue-100:#080815;
+  --blue-200:#0E0F25;
+  --blue-300:#141534;
+  --blue-400:#1F2151;
+  --blue-500:#2F3279;
+  --blue-600:#2F34AB;
+  --blue-700:#4A5DCD;
+  --blue-800:#7D8DEC;
+  --blue-900:#B2B8DE;
+  --white:#F1F2F6;
+
+  --font-family: "Inter", sans-serif;
+  --text-xl: 700 2rem/1.5 var(--font-family);
+  --text-md: 400 1rem/1.2 var(--font-family);
+  --text-sm: 400 0.75rem/1 var(--font-family);
+}
+
+body{
+  font: var(--text-md);
+} 
