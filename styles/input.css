@@ -1,0 +1,25 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  label {
+    color: var(--blue-900);
+    font: var(--text-sm);
+  }
+
+  input {
+    all: unset;
+    background-color: var(--blue-400);
+    padding: 1rem 1.2rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    border: 1px solid var(--blue-900);
+    &:hover {
+      border-color: var(--blue-700);
+    }
+  }
+  &:hover label {
+    color: var(--blue-700);
+  }
+}

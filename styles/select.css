@@ -1,0 +1,15 @@
+select {
+  all: unset;
+  background: url("../assets/CaretDown.svg") no-repeat;
+  background-position: calc(100% - 0.75rem) center;
+  background-color: var(--blue-400);
+  padding: 1rem 1.25rem;
+  color: var(--white);
+  border: 1px solid var(--blue-900);
+  border-radius: 0.5rem;
+
+  &:hover {
+    border: 1px solid var(--blue-700);
+  }
+  
+}
