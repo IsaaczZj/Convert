@@ -5,12 +5,14 @@ select {
   background-color: var(--blue-400);
   padding: 1rem 1.2rem;
   color: var(--white);
-  border: 1px solid var(--blue-900);
+  border: 1px solid var(--blue-500);
   border-radius: 0.5rem;
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 2rem;
+  cursor: pointer;
   &:hover, &:focus {
     border: 1px solid var(--blue-700);
   }
 }
+

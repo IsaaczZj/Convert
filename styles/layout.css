@@ -5,10 +5,16 @@
   overflow: hidden;
   border: 1px solid var(--blue-400);
   margin-top: 3rem;
+
+}
+@media(width <= 40rem){
+  .container-main{
+    max-width: 20rem;
+  }
 }
 
 form{
-  background-color: var(--blue-200);
+  background-color: var(--blue-300);
   display: flex;
   align-items: center;
   justify-content: center;

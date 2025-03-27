@@ -1,12 +1,8 @@
 footer {
   background-color: #1f2151;
   padding: 2.5rem;
-  max-height: 196px;
-
   text-align: center;
-  
-
-  overflow-y: scroll;
+  display: none;
 }
 
 .show-result {
