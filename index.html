@@ -10,24 +10,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Convert</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <h1>Ola mundo</h1>
-    <button>Converter em reais</button>
-    <div class="input-wrapper">
-      <label for="">Valor</label>
-      <input type="text">
+    <img src="./assets/Frame 1.png" alt="logo do site escrito Convert" />
+    <div class="container-main">
+      <form>
+        <div class="container">
+          <div class="input-wrapper">
+            <label for="amount">Valor</label>
+            <input
+              type="text"
+              name="amount"
+              id="amount"
+              placeholder="0"
+              required
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="currency">Moeda</label>
+            <select name="currency" id="currency" required>
+              <option disabled selected hidden>Selecione a moeda</option>
+              <option value="USD">Dolar americano</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra Esterlina</option>
+            </select>
+          </div>
+          <button>Converter em reais</button>
+        </div>
+      </form>
+      <footer>
+        <span id="description">US$ 1 = R$ 4,86</span>
+        <h1 id="result">486,00 Reais</h1>
+      </footer>
     </div>
-    <div class="input-wrapper">
-      <label for="">Valor</label>
-      <select name="" id="">
-        <option disabled selected hidden >Selecione a moeda</option>
-        <option value="">asdasd</option>
-        <option value="">dddd</option>
-        <option value="">cccccc</option>
-      </select>
-    </div>
+
     <script src="./Js/script.js"></script>
   </body>
 </html>

@@ -4,9 +4,12 @@ button {
   background-color: var(--blue-600);
   border-radius: 0.5rem;
   color: var(--white);
-  /* width: 100%; */
-  cursor: pointer;
- 
+  width: max-content;
+  width: 100%; /* Faz o botão ocupar 100% da largura do container */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    cursor: pointer;
+    box-sizing: border-box; 
+  
 }
 button:hover {
   background-color: var(--blue-700);
