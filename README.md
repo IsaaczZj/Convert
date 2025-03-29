@@ -1,4 +1,6 @@
- Conversor de Moedas (Real -> Dólar, Euro, Libra)
+![image](https://github.com/user-attachments/assets/46770f79-4167-44f6-b882-a507c3168d81)
+ 
+Conversor de Moedas (Real -> Dólar, Euro, Libra)
 
 Este é um projeto web simples que permite converter valores em Real (BRL) para outras moedas, como Dólar Americano (USD), Euro (EUR) e Libra Esterlina (GBP).
 
