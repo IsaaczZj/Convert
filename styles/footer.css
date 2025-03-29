@@ -3,6 +3,9 @@ footer {
   padding: 2.5rem;
   text-align: center;
   display: none;
+  min-height: 6rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .show-result {
@@ -23,4 +26,5 @@ footer h1 {
   font-size: 2rem;
   line-height: 3rem;
   word-break: break-all;
+  
 }
