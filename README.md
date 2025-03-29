@@ -8,7 +8,6 @@ Este é um projeto web simples que permite converter valores em Real (BRL) para 
 
 *   **Conversão:** Insira um valor em Real e veja a conversão para as outras moedas.
 *   **Interface:** Interface de usuário limpa e responsiva, projetada para funcionar em diferentes dispositivos.
-*   **Dados:** Utiliza uma API para obter as taxas de câmbio mais recentes.
 
 ## Demonstração
 * **Acessar o link no Git Hub Pages
