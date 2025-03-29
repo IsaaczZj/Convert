@@ -3,6 +3,7 @@ const amount = document.getElementById('amount')
 const currency = document.getElementById('currency')
 const footer = document.querySelector('footer')
 const description = document.getElementById('description')
+const result = document.getElementById('result')
 
 
 const USD = 5.76
@@ -31,7 +32,11 @@ form.onsubmit = (e) => {
 
 function convertCurrency(amount, price, symbol) {
   try {
+    
+
     description.textContent = `${symbol} 1 = ${formatCurrencyBRL(price)}`
+    let total = amount * price
+    result.textContent = `${formatCurrencyBRL(total).replace("R$", "")} reais`
     footer.classList.add('show-result')
 
   } catch (err) {
@@ -42,7 +47,7 @@ function convertCurrency(amount, price, symbol) {
   }
 }
 
-function formatCurrencyBRL(value){
+function formatCurrencyBRL(value) {
   return (+value).toLocaleString("pt-BR", {
     style: "currency",
     currency: "BRL"
